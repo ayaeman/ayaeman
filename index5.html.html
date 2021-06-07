@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="contact.css">
+<style>
+* {
+	box-sizing: border-box;
+	}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+h2{
+	color:black;
+	font-family:vendara;
+}
+p{
+	color:purple;
+}
+img {
+  border-radius: 8px;
+  width: 5%;
+  height: auto;
+  position:left;
+  margin:10px;
+	
+ }
+ body{
+	 background-color:lightgray;
+ }
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="eman&aya.html" title="Go to the home page"> Home</a>
+  <a href="p it 2.html"title="Our content">About</a>
+    <a href="p it 3.html" title="Go to slideshow">Gallery</a>
+  <a class="active" href="#contact" title=" How to contact us">Contact</a>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" title="Search for what you want" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+<div style="padding-left:16px">
+  <h2>A Message From EG- Onlin Library To The Customer</h2>
+  <br></br>
+  <ol type="1" start="1">
+ <li> <p>(Dear customer, we are pleased to have you in our library</p>
+ <p> and we hope that you have got what you want. You can put your</p>
+ <p> email to receive all that is new about our library and follow up </p>
+ <p>through the following communication site...THANK YOU...)</p></li>
+ </ol>
+
+  <script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("ENTER A VALID E-MAIL");
+    return false;
+  }
+}
+</div>
+</script>
+<form name="myForm" onsubmit="return validateForm()" method="post">
+		EMAIL: <input type="email"  title="Enter your E-MAIL address" name="fname">
+<input type="submit" value="Submit" onclick="EG-Online library.html">
+</form>
+</div>
+ 
+ <br></br>
+ <a title="open facbook" href="https://www.facebook.com" >
+         <img alt="facebook" src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/social-facebook-icon.png">
+ <a title="open instagram" href="https://www.instagram.com" >
+         <img alt="instagram" src="https://icon-library.com/images/instagram-small-icon/instagram-small-icon-12.jpg">
+ <a title="open twitter" href="https://www.twitter.com" >
+         <img alt="twitter" src="https://upload.wikimedia.org/wikipedia/ar/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png">
+ 
+</body>
+</html>
